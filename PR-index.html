@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PRORACING — HOME</title>
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="PR-assets/PR-css/PR-main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div>PRORACING</div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a class="nav-link active" href="#home">HOME</a>
+        <a class="nav-link" href="#product">PRODUCT</a>
+        <a class="nav-link" href="#about">ABOUT</a>
+        <a class="nav-link" href="#contact">CONTACT US</a>
+      </nav>
+
+      <div class="clock" id="clock" aria-label="Local time">--:--:--</div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="grid">
+      <div>
+        <div class="kicker">
+          <span class="dot" aria-hidden="true"></span>
+          <span>MINIMAL. MODERN. PERFORMANCE.</span>
+        </div>
+
+        <h1>CAR ACCESSORIES BUILT FOR CLEAN PERFORMANCE.</h1>
+
+        <p class="sub">
+          WE DESIGN ESSENTIAL UPGRADES THAT LOOK OEM-PLUS AND PERFORM UNDER REAL CONDITIONS.
+          CLEAN FIT. CONSISTENT FINISH. NO NOISE.
+        </p>
+
+        <div class="cta">
+          <button class="btn btn-primary" type="button" onclick="location.href='#product'">VIEW PRODUCTS</button>
+          <button class="btn btn-ghost" type="button" onclick="location.href='#contact'">GET A QUOTE</button>
+        </div>
+
+        <div class="divider"></div>
+      </div>
+
+      <aside class="card" id="product" aria-label="Product preview">
+        <div class="card-title">FEATURED PRODUCT</div>
+
+        <div class="spec"><span>MODEL</span><span>PRX-01</span></div>
+        <div class="spec"><span>CATEGORY</span><span>ACCESSORY</span></div>
+        <div class="spec"><span>FITMENT</span><span>UNIVERSAL</span></div>
+        <div class="spec"><span>AVAILABILITY</span><span>IN STOCK</span></div>
+
+        <div class="card-note">
+          CLEAN DESIGN. SUBTLE FINISH. BUILT TO FEEL FACTORY — WITHOUT LOOKING GENERIC.
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section">
+      <div class="panel">
+        <div class="card-title panel-title">ABOUT</div>
+        <div class="panel-text">
+          PRORACING BUILDS MINIMAL, MODERN ACCESSORIES FOR DRIVERS WHO CARE ABOUT DETAILS.
+          WE FOCUS ON CLEAN LINES, QUALITY MATERIALS, AND FITMENT THAT MAKES INSTALL SIMPLE.
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="panel">
+        <div class="card-title panel-title">CONTACT US</div>
+        <div class="panel-text">
+          EMAIL: SUPPORT@PRORACING.COM<br/>
+          HOURS: MON–FRI, 9AM–5PM
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> PRORACING — ALL RIGHTS RESERVED
+  </footer>
+
+  <!-- MAIN JS -->
+  <script src="PR-assets/PR-js/PR-main.js"></script>
+</body>
+</html>
